@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="bs5/css/bootstrap.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+  </head>
+  <body>
+
+    <!-- Login start here -->
+    <div class="error"></div>
+    <div id="login-wrapper">
+      <div class="container">
+        <div class="row">
+          <div
+            class="
+              col-xl-12 col-xxl-12 col-lg-12 col-md-12 col-sm-12 col-12 input-box-wrapper">
+            <h4>Login</h4>
+
+            <div class="input-box">
+              <div class="login-wrapper">
+                <i class="fas fa-user"></i>
+                <input id="name" type="text" placeholder="Enter Your Gmail" />
+              </div>
+
+              <div class="login-wrapper">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" class="pass12" placeholder="Enter Your Password" />
+              </div>
+
+            </div>
+            
+           <div class="ck-box">
+            <input class="check-box" type="checkbox" onclick="mypass()"> Show Password
+           </div>
+
+            <a class="forget-pass-text" href="">Forget Password?</a>
+              <button class="login-btn" id="log-main-buttn">Login</button>
+              
+  
+            <div class="create-acc">
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-google"></i></a>
+            </div>
+            <p>
+              Dont have an account
+              <a class="another-para" href="reg.html">Sign up</a> here
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Login end here -->
+
+
+    
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="bs5/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

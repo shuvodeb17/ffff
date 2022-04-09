@@ -1,0 +1,206 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Merriweather:wght@300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Rubik+Wet+Paint&family=Waterfall&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+/* navbar start here */
+.navbar-brand {
+  font-family: "Rubik Wet Paint", cursive;
+  color: #fff !important;
+}
+.navbar {
+  background: #14a083;
+}
+li.nav-item {
+  padding: 6px 21px;
+  height: 53px;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+li.nav-item:hover {
+  background: #ff8787;
+  padding: 6px 21px;
+  height: 53px;
+}
+a.nav-link.active {
+  color: #fff !important;
+}
+.reg-btn {
+  background: #ff8787;
+  border: none;
+  color: #fff;
+  padding: 8px 20px;
+  height: 7vh;
+  margin-top: 3px;
+  border-radius: 4px;
+}
+/* navbar end here */
+
+/* carousel start here */
+.carousel-item img {
+  height: 90vh;
+  background-color: rgb(0, 0, 0, 0.5);
+  filter: brightness(0.8);
+}
+.carousel-caption {
+  height: 53vh;
+}
+.carousel-caption p {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  width: 50%;
+  text-align: start;
+}
+a{
+  text-decoration: none;
+}
+.tele-btn{
+  margin: 10px;
+   padding: 15px 29px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   font-size: 13px;color: white;      
+   border-radius: 10px;
+   display: block;
+   background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+   border: none;
+}
+.tele-btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+.tele-btn i {
+   font-size: 20px;
+ }
+
+
+
+
+.carousel-caption h1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: rgb(255, 230, 0);
+  font-family: "Rubik Wet Paint", cursive;
+}
+.next-carousel {
+  background: #ffc107;
+  padding: 13px 20px;
+  border-radius: 50%;
+  color: #000;
+}
+.bottom-button {
+}
+/* carousel end here */
+
+/* About start here */
+#about {
+  background-color: #ff8787;
+}
+#about h1 {
+  font-family: "Rubik Wet Paint", cursive;
+}
+#about span {
+  font-family: "Rubik Wet Paint", cursive;
+  font-size: 2em;
+}
+#about img {
+  padding: 64px 0px;
+}
+#about li {
+  list-style-type: none;
+}
+#about i.fas.fa-address-book {
+  display: inline-block;
+  margin-left: -30px;
+  padding: 8px 9px;
+  background: aqua;
+  border-radius: 50%;
+}
+
+#about p {
+  display: inline;
+}
+
+/* About end here */
+
+/* Rules start here */
+#rules {
+  background-color: background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  ;
+}
+#rules img {
+  padding: 64px 0px;
+}
+#rules li {
+  list-style-type: none;
+}
+#rules i.fas.fa-address-book {
+  display: inline-block;
+  margin-left: -30px;
+  padding: 8px 9px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+#rules p {
+  display: inline;
+}
+#rules h1 {
+  font-family: "Rubik Wet Paint", cursive;
+}
+#rules span {
+  font-family: "Rubik Wet Paint", cursive;
+  font-size: 2em;
+}
+
+/* Rules end here */
+
+@media screen and (max-width: 968px) {
+  #carousel {
+    background: #000;
+  }
+  .carousel-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .carousel-caption p {
+    width: 100%;
+    text-align: center;
+  }
+  .nav-item {
+    margin-top: 20px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 968px) {
+  .carousel-caption {
+    height: 50vh;
+  }
+  .carousel-item img {
+    height: 64vh;
+  }
+}
